@@ -1,0 +1,10 @@
+const fun =() =>{
+    console.log("hello world!")
+}
+
+const fun2 =() =>{
+    console.log("second attempt")
+}
+
+
+module.exports={fun,fun2};
