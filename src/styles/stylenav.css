@@ -1,0 +1,81 @@
+
+
+.navbar a{
+    
+    text-decoration: none;
+    color: #1f5449;
+}
+.navbar{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #1f5449;
+    background-color: #e7e7eb;
+}
+.mininav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.social{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+
+
+#twitter{
+    height: 25px;
+    width: 20px;
+}
+
+#instagram{
+    height: 20px;
+    width: 20px;
+}
+#fb{
+    height: 20px;
+    width: 25px;
+}
+
+#slogo{
+    width: 110px;
+}
+
+
+@media screen and (max-width: 792px){
+    .navbar_icon{
+        display: flex;
+    }
+    .social{
+        display: none;
+    }
+
+    .mininav{
+        display: none;
+    }
+    .navbar{
+        justify-content: space-between;
+    }
+
+    .leftside{
+        display: none;
+        
+    }
+    .allformulaire{
+        width: 100%;
+    }
+
+
+
+
+}
