@@ -1,0 +1,51 @@
+.ftr{
+    display: flex;
+    justify-content: space-around;
+    background-color: #107869;
+    align-items: center;
+    list-style: none;
+    height: 320px;
+}
+
+.tsocial{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 10px;
+}
+.texplore{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 10px;
+}
+.explore a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.explore{
+    gap: 10px;
+    width: 150px;
+    color: black;
+    font-size: 20px;
+}
+
+.socials{
+    width: 150px;
+}
+.cpr{
+    display: flex;
+    justify-content: end;
+    height: 30px;
+    background-color: #107869;
+}
+
+.logo{
+    width: 200px;
+    color:white;
+    text-decoration: none;
+}
+hr{
+    margin: 0px;
+    padding: 0px;
+}

@@ -9,11 +9,12 @@ import bgimg1 from '../imgs/bgimg1.jpg'
 import desert from '../imgs/desert.jpg'
 import menu_icon from '../imgs/menu_icon.png'
 import Navb from '../components/navbar'
+import Layout from '../layout/mainlayout';
 
 const Prog = (props) => {
   return (
     <div>
-      <Navb></Navb>
+      <Layout>
       <div className="all">
         <div className="first">
           <div className="img1"><img src={bgimg} alt="" id="img1" /></div>
@@ -67,6 +68,7 @@ const Prog = (props) => {
 
 
       </div>
+      </Layout>
     </div>
 
 

@@ -5,8 +5,8 @@ import Switch from './try';
 import Prog from './pages/programs';
 import Payment from './pages/payment';
 import Page404 from './pages/errorpage';
+import Footerb from './components/footer';
 import { useState, useEffect } from "react"
-import './styles/home.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 
@@ -53,6 +53,7 @@ const App = () => {
         <Route path="/programs" element={<Prog />} />
         <Route path="/payment" element={<Payment />} />
         <Route path="*" element={<Page404 />} />
+        <Route path="/footer" element={<Footerb />} />
 
       </Routes>
     </BrowserRouter>
