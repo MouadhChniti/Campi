@@ -8,6 +8,10 @@
     height: 710px;
     margin:0px; 
     font-family: serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .parag1{

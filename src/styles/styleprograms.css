@@ -59,6 +59,7 @@ body{
 .all{
     width: 100%;
     display: block;
+    text-align: justify;
 }
 
 .first{
@@ -72,7 +73,9 @@ body{
     color: #ffffff;
 }
 .img1{
-    width: 50%; }
+    width: 50%;
+    height: 800px; 
+}
 .desc1{
     width: 50%;
     display: block;

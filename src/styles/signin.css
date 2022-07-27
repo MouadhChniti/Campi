@@ -1,0 +1,84 @@
+
+
+.allIn {
+    display: flex;
+    height: 520px;
+    width: 70%;
+}
+.allInn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 720px;
+}
+.imgIn {
+    width: 50%;
+    height: 520px;
+    background-color: #5e9c93;
+    border-radius: 15px;
+    
+}
+
+#signimg{
+    width: 530px;
+    height: 520px;
+}
+
+.formIn {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7e7eb;
+    border-radius: 15px;
+}
+
+.formInn {
+    width: 80%;
+    display: block;
+    gap: 50px;
+}
+.see{
+    display: block;
+}
+
+.btnsign{
+    width: 50%;
+    height: 30px    ;
+    background-color: #accbc6;
+    color: white;
+}
+
+.cnclsign{
+    width: 50%;
+    height: 30px;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: #5e9c93;
+    margin: 10px;
+}
+.btns a{
+    text-decoration: none;
+    color: #5e9c93;
+}
+.inpt{
+    margin: 10px;
+}
+.titlIn{
+font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 792px){
+.imgIn{display: none;}
+
+.formIn{
+    width: 100%;
+}
+}

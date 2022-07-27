@@ -33,7 +33,7 @@ const Navb = (props) => {
           <li><img src={instagram} id="instagram" /></li>
           <li><img src={facebook} id="fb" /></li>
           <li><img src={twitter} id="twitter" /></li>
-          <li>Signin</li>
+          <Link to="/signin"><li>Signin</li></Link>
 
         </div>
         <div className="navbar_icon"><img src={menu_icon} alt="error" /></div>

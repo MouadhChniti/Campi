@@ -41,6 +41,7 @@ const Home = (props) => {
       <Layout>
         <div className='home'>
           <div className='ff'>
+            
             <div className="parag1">Detox your mind in our environnemt</div>
             <div className="parag2">A great night at Lavie Camping Land, where to escape city life and bring you to get in touch with nature</div>
             <div className="gn">

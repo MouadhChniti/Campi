@@ -14,7 +14,7 @@ const Footerb = (props) => {
       <div className="ftr">
         <Link to="/home">
         <div className="logo">
-          <img src={logoo} alt="" id="slogo" />campers is an online camp programs booking site ,we have varity of camp programs
+          <img src={logoo} alt="" id="slogo" /><br/>campers is an online camp programs booking site ,we have varity of camp programs
           (green forest,maountain and river,desert)that make you detox your mind and renew your energy 
         </div>
         </Link>

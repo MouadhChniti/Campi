@@ -8,6 +8,9 @@ import Page404 from './pages/errorpage';
 import Footerb from './components/footer';
 import { useState, useEffect } from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Login from './pages/signup';
+import Signup from './pages/signup';
+import Signin from './pages/signin';
 
 
 
@@ -54,6 +57,9 @@ const App = () => {
         <Route path="/payment" element={<Payment />} />
         <Route path="*" element={<Page404 />} />
         <Route path="/footer" element={<Footerb />} />
+        <Route path="/Signup" element={<Signup />} />
+        <Route path="/Signin" element={<Signin />} />
+        
 
       </Routes>
     </BrowserRouter>
