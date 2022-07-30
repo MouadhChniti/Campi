@@ -10,6 +10,7 @@ import desert from '../imgs/desert.jpg'
 import menu_icon from '../imgs/menu_icon.png'
 import Navb from '../components/navbar'
 import Layout from '../layout/mainlayout';
+import { Link } from 'react-router-dom';
 
 const Prog = (props) => {
   return (
@@ -26,7 +27,7 @@ const Prog = (props) => {
             adipisicing elit. Hic, rem, nostrum debitis ipsum unde quod rerum eum cum, architecto
             vitae quisquam et culpa perspiciatis odio! Corporis aliquam odit nulla deserunt.
             <div className="f">
-              <div className="book1">Book now</div>
+              <div className="book1"><Link to="/booking">Book now</Link></div>
             </div>
           </div>
 
@@ -41,7 +42,7 @@ const Prog = (props) => {
             adipisicing elit. Hic, rem, nostrum debitis ipsum unde quod rerum eum cum, architecto
             vitae quisquam et culpa perspiciatis odio! Corporis aliquam odit nulla deserunt.
             <div className="s">
-              <div className="book2">Book now</div>
+              <div className="book2"><Link to="/booking">Book now</Link></div>
             </div>
           </div>
 
@@ -59,7 +60,7 @@ const Prog = (props) => {
             adipisicing elit. Hic, rem, nostrum debitis ipsum unde quod rerum eum cum, architecto
             vitae quisquam et culpa perspiciatis odio! Corporis aliquam odit nulla deserunt.
             <div className="th">
-              <div className="book3">Book now</div>
+              <div className="book3"><Link to="/booking">Book now</Link></div>
             </div>
           </div>
         </div>

@@ -3,20 +3,24 @@
 .allIn {
     display: flex;
     height: 520px;
-    width: 70%;
+    width: 80%;
+    
 }
 .allInn{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 720px;
+    background-image: url("../imgs/aboutus1.jpg");
 }
 .imgIn {
     width: 50%;
     height: 520px;
-    background-color: #5e9c93;
+    background-color: #107869;
     border-radius: 15px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #signimg{
@@ -69,12 +73,28 @@
 .inpt{
     margin: 10px;
 }
+.inptrec{
+    margin: 10px;
+    height: 150px;
+    width: 265px;
+    border-radius: 15px;
+
+}
 .titlIn{
 font-size: 30px;
     display: flex;
     justify-content: center;
 }
+.btnbook{
+    width: 120px;
+    height: 30px;
+    background-color: #accbc6;
+    color: white;
+}
 
+.selectcamp{
+    border-radius: 15px;
+}
 @media screen and (max-width: 792px){
 .imgIn{display: none;}
 

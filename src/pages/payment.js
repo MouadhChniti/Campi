@@ -62,7 +62,7 @@ const Payment = (props) => {
 
                   <div className="button_container">
                     <button className='btn'>pay now</button>
-                    <div className="cancel"><a href="programs.js">cancel Payment</a></div>
+                    <div className="cancel"><a href="programs">cancel Payment</a></div>
 
                   </div>
 

@@ -203,7 +203,10 @@ body{
 .navbar_icon{
     display: none;
 }
-
+a{
+    text-decoration: none;
+    color: white;
+}
 @media screen and (max-width: 792px){
     .navbar_icon{
         display: flex;

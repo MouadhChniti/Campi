@@ -1,0 +1,22 @@
+.allerror{
+    height: 750px;
+    background-color: #5e9c93;
+    display: block;
+}
+
+.errortitle{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.bkbtn{
+    font-size: 50px;
+    padding: 2px;
+    background-color: white;
+    width: 350px;
+    border-radius: 25px ;
+    display: flex;
+    justify-content: center;
+}

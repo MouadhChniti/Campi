@@ -11,6 +11,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Login from './pages/signup';
 import Signup from './pages/signup';
 import Signin from './pages/signin';
+import Booking from './pages/booking';
+import Contactus from './pages/contactus';
+import Aboutus from './pages/aboutus';
 
 
 
@@ -59,6 +62,10 @@ const App = () => {
         <Route path="/footer" element={<Footerb />} />
         <Route path="/Signup" element={<Signup />} />
         <Route path="/Signin" element={<Signin />} />
+        <Route path="/Booking" element={<Booking />} />
+        <Route path="/contactus" element={<Contactus />} />
+        <Route path="/aboutus" element={<Aboutus/>} />
+        
         
 
       </Routes>

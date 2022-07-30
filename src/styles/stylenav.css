@@ -29,6 +29,7 @@
     display: flex;
     justify-content: space-between;
     width: 150px;
+    align-items: center;
 }
 
 
@@ -50,7 +51,10 @@
 #slogo{
     width: 110px;
 }
-
+.sin{
+    border: solid 2px black;
+    padding: 3px;
+}
 
 @media screen and (max-width: 792px){
     .navbar_icon{

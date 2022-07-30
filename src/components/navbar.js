@@ -25,15 +25,15 @@ const Navb = (props) => {
           <Link to="/programs">
             <li>Programs</li>
           </Link>
-          <li>About us</li>
-          <li>Contact</li>
+          <Link to="/aboutus"><li>About us</li></Link>
+          <Link to="/contactus"><li>Contact</li></Link>
         </div>
 
         <div className="social">
           <li><img src={instagram} id="instagram" /></li>
           <li><img src={facebook} id="fb" /></li>
           <li><img src={twitter} id="twitter" /></li>
-          <Link to="/signin"><li>Signin</li></Link>
+          <Link to="/signin"><li className='sin'>Signin</li></Link>
 
         </div>
         <div className="navbar_icon"><img src={menu_icon} alt="error" /></div>

@@ -50,3 +50,14 @@ hr{
     margin: 0px;
     padding: 0px;
 }
+
+@media screen and (max-width: 450px){
+    .ftr{
+        display: block;
+        justify-content: center;
+        height: 100%;
+    }
+    .allftr{
+        height:500px;
+    }
+    }
