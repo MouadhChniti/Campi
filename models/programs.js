@@ -6,7 +6,7 @@ const programs= new mongoose.Schema(
     description:{type:String},
     libelle:{type:String},
     location:{type:String},
-    prix:{type:number}
+    prix:{type:Number}
 },
 {   
     timestamps:true

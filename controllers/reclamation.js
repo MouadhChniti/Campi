@@ -12,9 +12,9 @@ const getByIdReclamation = async (request, response) => {
 }
 const postReclamation=(request,response)=>{
     const input=request.body
-    let user=new reclamationModel(input)
-    reclamationModel.create(user)
-    response.send(user)
+    let rec=new reclamationModel(input)
+    reclamationModel.create(rec)
+    response.send(rec)
 }
 const putManyReclamation = async (request, response) => {
     const body = request.body

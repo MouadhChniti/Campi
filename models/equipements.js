@@ -3,6 +3,7 @@ const mongoose=require("mongoose")
 
 const equipements= new mongoose.Schema(
 {
+    equipId:{type:String},
     description:{type:String},
     mail:{type:String},
     nom:{type:String},
