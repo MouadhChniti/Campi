@@ -1,5 +1,5 @@
 const jwt = require("jsonwebtoken");
-const privateKey = "privateKey";
+const privateKey = "TOKEN-CRYPTER";
 const userModel = require("./../models/user");
 const MiddlewareAuth = async (req, res, next) => {
   let token = req.headers.authorization;
@@ -12,7 +12,7 @@ const MiddlewareAuth = async (req, res, next) => {
       try {
         console.log("this is payload =>", result);
         // TODO : verify user exist !
-        let user = await userModel.findById(result._id);
+        let user = await userModel.findById(result.userId);
         console.log("this is the user => ", user);
         req.user = user;
         next();

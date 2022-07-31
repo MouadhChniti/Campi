@@ -12,10 +12,10 @@ const getByIdreservation = async (request, response) => {
 }
 const postreservation=async(request,response)=>{
     const input=request.body
-    let userId = request.user._id
-    let user=new reservationModel({...input,userId})
-  let newuser =await  reservationModel.create(user)
-    response.send(newuser)
+     let resId = request.res._id
+    let res=new reservationModel({...input,resId})
+  let newres =await  reservationModel.create(res)
+    response.send(newres)
 }
 const putManyreservation = async (request, response) => {
     const body = request.body

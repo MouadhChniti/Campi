@@ -3,7 +3,7 @@ const mongoose=require("mongoose")
 
 const reservation= new mongoose.Schema(
 {
-    userId:{type:mongoose.Types.ObjectId,refs:"user"} ,
+    // userId:{type:mongoose.Types.ObjectId,refs:"user"} ,
     programId:{type:String},
     datein:{type:String},
     dateout:{type:String},
