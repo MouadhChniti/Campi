@@ -14,6 +14,7 @@ import Signin from './pages/signin';
 import Booking from './pages/booking';
 import Contactus from './pages/contactus';
 import Aboutus from './pages/aboutus';
+import Provider from './components/privateroute';
 
 
 
@@ -55,7 +56,9 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/try" element={<Switch />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/home" element={
+          <Provider><Home /></Provider>
+        } />
         <Route path="/programs" element={<Prog />} />
         <Route path="/payment" element={<Payment />} />
         <Route path="*" element={<Page404 />} />

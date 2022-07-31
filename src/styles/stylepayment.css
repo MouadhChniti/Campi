@@ -145,13 +145,14 @@ body{
 }
 button{
     width: 480px;
-    border-radius: 15px;
+    border-radius: 6px;
 }
 
 input{
-    border-radius: 15px;
+    border-radius: 6px;
     width: 260px;
     height: 30px;
+    border: solid 0.4 lightgrey;
 }
 @media screen and (max-width: 792px){
     .navbar_icon{
