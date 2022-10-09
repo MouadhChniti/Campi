@@ -13,6 +13,11 @@ const getByIduser = async (request, response) => {
     let result = await userModel.findById(request.params.id)
     response.send(result)
 }
+
+const getBymailuser = async (request, response) => {
+    let result = await userModel.findById(request.params.email)
+    response.send(result)
+}
 const postuser=(request,response)=>{
     const input=request.body
     let user=new userModel(input)
@@ -94,6 +99,7 @@ const user ={
     putByIduser,
     deleteManyuser,
     deleteByIduser,
+    getBymailuser,
     signup,
     signin,
     me

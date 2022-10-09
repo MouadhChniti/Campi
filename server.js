@@ -13,7 +13,6 @@ require("./db/connection")
 server.use(userRouter)
 server.use(resRouter)
 server.use(recRouter)
-
 server.listen(port,() => {
 console.log(`server is running on : ${port}`)
 })

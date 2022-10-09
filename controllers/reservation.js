@@ -12,8 +12,7 @@ const getByIdreservation = async (request, response) => {
 }
 const postreservation=async(request,response)=>{
     const input=request.body
-     let resId = request.res._id
-    let res=new reservationModel({...input,resId})
+    let res=new reservationModel(input)
   let newres =await  reservationModel.create(res)
     response.send(newres)
 }
