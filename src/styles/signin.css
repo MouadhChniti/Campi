@@ -95,6 +95,13 @@ font-size: 30px;
 .selectcamp{
     border-radius: 15px;
 }
+.errorstylr{
+    font-family: serif;
+    color: red;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
 @media screen and (max-width: 792px){
 .imgIn{display: none;}
 

@@ -15,6 +15,7 @@ import Booking from './pages/booking';
 import Contactus from './pages/contactus';
 import Aboutus from './pages/aboutus';
 import Provider from './components/privateroute';
+import Account from './pages/account';
 
 
 
@@ -56,8 +57,8 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/try" element={<Switch />} />
-        <Route path="/home" element={
-          <Provider><Home /></Provider>
+        <Route path="/home" element={<Home />
+          // <Provider><Home /></Provider>
         } />
         <Route path="/programs" element={<Prog />} />
         <Route path="/payment" element={<Payment />} />
@@ -68,6 +69,8 @@ const App = () => {
         <Route path="/Booking" element={<Booking />} />
         <Route path="/contactus" element={<Contactus />} />
         <Route path="/aboutus" element={<Aboutus/>} />
+        <Route path="/account" element={<Provider><Account/> </Provider>} />
+        
         
         
 

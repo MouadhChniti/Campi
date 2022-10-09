@@ -19,8 +19,7 @@
     justify-content: center;
     font-size: 50px;
     color: #1f5449;
-    /* margin-top: 200px ;
-    margin-bottom: 20px; */
+    
 }
 .parag2{
     display: flex;
@@ -40,7 +39,7 @@
     display: flex;
     justify-content: center;
     font-size: 35px;    
-    background:linear-gradient(#107869,#1A5653);;
+    background:linear-gradient(#107869,#1A5653);
     border-radius: 5px ;
 }
 

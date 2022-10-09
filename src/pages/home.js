@@ -1,11 +1,5 @@
 import { useEffect, useState } from 'react';
 import '../styles/home.css';
-import facebook from '../imgs/facebook.png'
-import instagram from '../imgs/instagram.png'
-import twitter from '../imgs/twitter.png'
-import logoo from '../imgs/logo.png'
-import menu_icon from '../imgs/menu_icon.png'
-import Navb from '../components/navbar'
 import { Link } from 'react-router-dom';
 import Layout from '../layout/mainlayout';
 import Buttons from '../components/buttonall';

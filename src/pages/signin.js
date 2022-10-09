@@ -21,11 +21,14 @@ const Signin = (props) => {
     const sendData = async () => {
         await axios.post("http://localhost:5000/user/signin/", user).then(result => {
             localStorage.setItem("token", result.data.token)
-            navigate("/home")
+
+            navigate("/account")
         }).catch(err => {
             setError(err.response.data.msg)
         })
     };
+
+    // data = axios.get("http://localhost:5000/user/getdata",user)
 
 
 
@@ -45,7 +48,7 @@ const Signin = (props) => {
                         <div className="formIn">
                             <div className='see'>
                                 <div className='titlIn'> sign in</div>
-                                {errors && <h1>{errors}</h1>}
+                                {errors && <h1 className='errorstylr'>{errors}</h1>}
                                 <div><input type="text" placeholder="ex@gmail.com" className='inpt' onChange={(e) => { setUser({ ...user, email: e.target.value }); }} /></div>
                                 <div><input type="text" placeholder="password" className='inpt' onChange={(e) => { setUser({ ...user, password: e.target.value }); }} /></div>
                                 <div className='btns'>
